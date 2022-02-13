@@ -1,0 +1,29 @@
+{
+    "python.linting.enabled": true,
+    "python.jediEnabled": false,
+    "python.autoComplete.extraPaths": [
+        ".micropy/esp32-micropython-1.18.0/stubs"
+    ],
+    "python.autoComplete.typeshedPaths": [
+        ".micropy/esp32-micropython-1.18.0/frozen",
+        ".micropy/BradenM-micropy-stubs-4f5a52a/frozen",
+        ".micropy/esp32-micropython-1.18.0/stubs",
+        ".micropy/micropy_test"
+    ],
+    "python.analysis.typeshedPaths": [
+        ".micropy/esp32-micropython-1.18.0/frozen",
+        ".micropy/BradenM-micropy-stubs-4f5a52a/frozen",
+        ".micropy/esp32-micropython-1.18.0/stubs",
+        ".micropy/micropy_test"
+    ],
+    "python.linting.pylintEnabled": true,
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#29310C",
+        "titleBar.activeBackground": "#394410",
+        "titleBar.activeForeground": "#F9FCF1"
+    },
+    "python.analysis.extraPaths": [
+        ".micropy/esp32-micropython-1.18.0/stubs"
+    ],
+    "python.formatting.provider": "black"
+}
