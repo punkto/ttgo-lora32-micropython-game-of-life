@@ -9,3 +9,12 @@ https://micropython.org/download/esp32/
 
 http://docs.micropython.org/en/latest/esp32/quickref.html
 http://docs.micropython.org/en/latest/genrst/index.html
+
+
+# start up:
+```shell
+python -m venv ./venv
+source ./venv/bin/activate
+pip install -r requirements.txt
+pytest -v .
+```

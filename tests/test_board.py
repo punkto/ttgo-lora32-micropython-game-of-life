@@ -1,4 +1,4 @@
-from board import Board
+from src.board import Board
 
 
 board_width = 12

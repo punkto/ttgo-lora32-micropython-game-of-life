@@ -1,5 +1,5 @@
-from board import Board
-from game_of_life import will_be_cell_alive
+from src.board import Board
+from src.game_of_life import will_be_cell_alive
 
 
 board_width = 3

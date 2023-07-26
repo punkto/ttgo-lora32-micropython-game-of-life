@@ -1,4 +1,4 @@
-from board import Board
+from .board import Board
 
 
 def will_be_cell_alive(b: Board, x, y) -> bool:
